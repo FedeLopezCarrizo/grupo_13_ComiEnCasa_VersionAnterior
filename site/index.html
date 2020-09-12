@@ -7,34 +7,70 @@
     <title>Comi-enCasa</title>
 </head>
 <body>
-    <img src="/site/banner.png" alt="banner">
-    <header class="header__menu">
-        <img src="/img/logo.png" alt="Logo">
-        <div class="header__register"> 
-            <a href="/site/login.html">Inicia Sesión</a>
-            <a href="/site/register.html">Registrate</a> 
-        </div>
-    
-    <h1>Comi-enCasa</h1>
-    <div class="field" id="searchform">
-        <input type="text" id="searchterm" placeholder="Busca eso que queres hoy..." />
-        <button type="button" id="search">Buscar</button>
-      </div>
-      <nav class="main-nav">
-        <ul>
-            <a href="#">Categorias</a>
-            <a href="#">Mis Pedidos</a>
-            <a href="#">Ofertas</a>
-            <a href="#">Empresas</a>
-            <a href="#">Preguntas Frecuentes</a>
-        </ul>
-        <ul>
-            <a href="#"><img src="/site/img/sugerencia_bebida.png" alt="sugerencia_bebida"> </a>
-            <a href="#"><img src="/site/img/sugerencia_minuta.png" alt="sugerencia_minuta"> </a>
-            <a href="#"><img src="/site/img/sugerencia_postre.png" alt="sugerencia_postre"> </a>
-            <a href="#"><img src="/site/img/sugerencia_veggie.png" alt="sugerencia_veggie"> </a>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+        
+        <!-- cabecera -->
+        <header class="header__main">
+            <img src="/img/banner.png" alt="logotipo" class="logo">
+
+             
+            <article class="header__loginregister"> 
+                <a href="/../login.html" class="a__loginregister">Inicia Sesión</a>
+                <a href="/../register.html" class="a__loginregister">Registrate</a> 
+            </article>
+
+            <article class="menu__iconburger"> 
+                <img class="menu__burger" src="/img/icon-burger.svg" alt="menu">
+            </article>
+
+			<nav class="nav__main">
+				<ul>
+					<li><a href="#">Categorias</a></li>
+					<li><a href="#">Mis Pedidos</a></li>
+					<li><a href="#">Ofertas</a></li>
+					<li><a href="#">Empresas</a></li>
+					<li><a href="#">Preguntas Frecuentes</a></li>
+				</ul>
+            </nav>
+        </header>
+            
+        <!-- busqueda -->
+		<section class="section__search">
+            <input class="input__search" type="text" name="search" placeholder="Busca eso que queres hoy...">
+            <button class="button__search" type="submit" name="button-search">Buscar</button>
+        </section>
+        
+        <!-- sugerencias -->
+        <section class="section__suggestions">
+            <article class="article__suggestion">
+                 <a href="#"><img src="/img/sugerencia_bebida.png" alt="sugerencia_bebida"> </a>
+            </article>
+            <article class="article__suggestion">
+                <a href="#"><img src="/img/sugerencia_minuta.png" alt="sugerencia_minuta"> </a>
+            </article>
+            <article class="article__suggestion">
+                <a href="#"><img src="/img/sugerencia_postre.png" alt="sugerencia_postre"> </a>
+            </article>
+            <article class="article__suggestion">
+                <a href="#"><img src="/img/sugerencia_veggie.png" alt="sugerencia_veggie"> </a>
+            </article>
+        </section>
+
+        <!-- pie de pagina -->
+        <footer class="footer__main">
+			<ul>
+                <li><a href="#" class="footer__hyperlink">Ofertas</a></li>
+                <li><a href="#" class="footer__hyperlink">Preguntas Frecuentes</a></li>
+                <li><a href="#" class="footer__hyperlink">Contacto</a></li>
+            </ul>
+            <ul class="footer__social">
+                <li><a href="#" target="_blank"><img src="/img/icon-twitter.png" alt="Twitter Logo" class="icon__twitter"></a></li>
+                <li><a href="#" target="_blank"><img src="/img/icon-facebook.png" alt="Facebook Logo" class="icon__facebook"></a></li>
+                <li><a href="#" target="_blank"><img src="/img/icon-instagram.jpg" alt="Instagram Logo" class="icon__instagram"></a></li>
+                <li><a href="#" target="_blank"><img src="/img/icon-linkedin.png" alt="Linkedin Logo" class="icon__linkedin"></a></li>
+                <li><a href="#" target="_blank"><img src="/img/icon-youtube.png" alt="Youtube Logo" class="icon__youtube"></a></li>
+            </ul>
+		</footer>
+    </div>
 </body>
 </html>
