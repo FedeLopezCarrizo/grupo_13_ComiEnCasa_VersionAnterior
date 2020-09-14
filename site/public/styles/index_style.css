@@ -1,11 +1,18 @@
 .container{
     font-family: 'league_spartanbold';
+    /* background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ */
 }
 
 .header__main {
     display: flex;
     flex-direction: column;
+    
     background-color: #2AB969; 
+      
 }
 
 .header__loginregister{
