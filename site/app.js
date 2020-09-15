@@ -7,14 +7,17 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 });
+app.get('/index.html', (req, res) => {
+    res.sendFile(__dirname + '/index.html')
+});
 app.get('/login.html', (req, res) => {
     res.sendFile(__dirname + '/login.html')
 });
 app.get('/register.html', (req, res) => {
     res.sendFile(__dirname + '/register.html')
 });
-app.get('/index.html', (req, res) => {
-    res.sendFile(__dirname + '/index.html')
+app.get('/productCart.html', (req, res) => {
+    res.sendFile(__dirname + '/productCart.html')
 });
 app.get('*', (res, req) => {
     res.statusCode(400).send('No encontrada')

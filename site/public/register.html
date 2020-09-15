@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/index_style.css">
+    <link rel="stylesheet" href="/styles/register_style.css">
     <title>Comi-enCasa</title>
 </head>
 <body>
@@ -11,94 +11,77 @@
         
         <!-- cabecera -->
         <header class="header__main">            
-            <a href="/index.html"><img src="/img/banner.png" alt="banner"> </a>
+            <a href="/../index.html"><img src="/img/banner.png" alt="logotipo" class="logo"></a>
 
             <article class="menu__iconburger"> 
                 <img class="menu__burger" src="/img/icon-burger.svg" alt="menu">
             </article>
         </header>
-                <h1> Completa tus datos.</h1>
-                <a href="/registerbusiness.html">crea una cuenta empresa</a>
-                <article class="header__usuarioregister"> 
-                    <p><label for="">Nombre</label></p>
-                        <textarea name="nombre" id="name" cols="30" rows="1"></textarea>
-                    <p><label for="">Apellido</label> </p>
-                        <textarea name="lastname" id="lastname" cols="30" rows="1"></textarea>
-                    <p><label for="">Selecciona provincia</label></p>
-                        <select name="provincia" id="provincia">
-                            <option value="bsas">Buenos Aires</option>
-                            <option value="capfed">C.A.B.A.</option>
-                            <option value="cata">Catamarca</option>
-                            <option value="chac">Chaco</option>
-                            <option value="chub">Chubut</option>
-                            <option value="cord">Córdoba</option>
-                            <option value="corri">Corrientes</option>
-                            <option value="entr">Entre Ríos</option>
-                            <option value="form">Formosa</option>
-                            <option value="Jujuy">Jujuy</option>
-                            <option value="lapam">La Pampa</option>
-                            <option value="lario">La Rioja</option>
-                            <option value="mdz">Mendoza</option>
-                            <option value="misio">Misiones</option>
-                            <option value="nqn">Neuquén</option>
-                            <option value="rion">Rio Negro</option>
-                            <option value="salta">Salta</option>
-                            <option value="sanju">San Juan</option>
-                            <option value="sanlu">San Luis</option>
-                            <option value="sancru">Santa Cruz</option>
-                            <option value="sanfe">Santa Fe</option>
-                            <option value="santia">Santiago del Estero</option>
-                            <option value="tierr">Tierra del Fuego</option>
-                            <option value="tucu">Tucumán</option>
-                        </select>
-                    <p><label for="">Tipo de Documento</label></p>
-                        <select name="identi" id="tipodni">
-                            <option value="dni">DNI</option>
-                            <option value="LC">Libr. civica</option>
-                            <option value="LE">Libr. enrolamiento</option>
-                        </select>
-                    <textarea name="identificacion" id="dni" cols="30" rows="1" placeholder="1234567"></textarea>
-                   <p> <label for="">Que preferis?</label> <br>
-                        <input type="checkbox" name="tipo" value="minutas">Minutas 
-                        <input type="checkbox" name="tipo" value="Vegana">Vegana 
-                        <input type="checkbox" name="tipo" value="Vegetariana">Vegetariana <br>
-                        <input type="checkbox" name="tipo" value="bebidas">Bebidas 
-                        <input type="checkbox" name="tipo" value="Etnicas">Etnicas  
-                        <input type="checkbox" name="tipo" value="pasta">Pastas <br>
-                        <input type="checkbox" name="tipo" value="carne">Carnes
-                        <input type="checkbox" name="tipo" value="plato">Al Plato  
-                        <input type="checkbox" name="tipo" value="otro">Otros 
-                   </p>
-                   <p> <label for="email">E-mail</label>
-                       <input type="email" id="email" name="email" placeholder="coso@comiencasa.com">
-                   </p>
-                   <p> <label for="password">Contraseña</label>
-                        <input type="password" id="password" name="password">
-                   </p>
-                <p> <button type="reset">Limpiar campos</button>
-                    <button type="submit">Enviar formulario</button>
-                </p>
-            
-                </article>
 
-                
+        <article class="header__usuarioregister"> 
             
-        
-        <!-- sugerencias -->
-        <section class="section__suggestions">
-            <article class="article__suggestion">
-                 <a href="#"><img src="/img/sugerencia_bebida.png" alt="sugerencia_bebida"> </a>
-            </article>
-            <article class="article__suggestion">
-                <a href="#"><img src="/img/sugerencia_minuta.png" alt="sugerencia_minuta"> </a>
-            </article>
-            <article class="article__suggestion">
-                <a href="#"><img src="/img/sugerencia_postre.png" alt="sugerencia_postre"> </a>
-            </article>
-            <article class="article__suggestion">
-                <a href="#"><img src="/img/sugerencia_veggie.png" alt="sugerencia_veggie"> </a>
-            </article>
-        </section>
+            <h1> Completa tus datos.</h1>
+            <a class="create__business" href="/registerbusiness.html">crea una cuenta empresa</a>
+
+            <input class="input__nombre" type="text" name="name" placeholder="Nombre">
+            <input class="input__nombre" type="text" name="lastname" placeholder="Apellido">
+
+            <p><label for="">Selecciona provincia</label></p>
+                <select name="provincia" id="provincia">
+                    <option value="bsas">Buenos Aires</option>
+                    <option value="capfed">C.A.B.A.</option>
+                    <option value="cata">Catamarca</option>
+                    <option value="chac">Chaco</option>
+                    <option value="chub">Chubut</option>
+                    <option value="cord">Córdoba</option>
+                    <option value="corri">Corrientes</option>
+                    <option value="entr">Entre Ríos</option>
+                    <option value="form">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="lapam">La Pampa</option>
+                    <option value="lario">La Rioja</option>
+                    <option value="mdz">Mendoza</option>
+                    <option value="misio">Misiones</option>
+                    <option value="nqn">Neuquén</option>
+                    <option value="rion">Rio Negro</option>
+                    <option value="salta">Salta</option>
+                    <option value="sanju">San Juan</option>
+                    <option value="sanlu">San Luis</option>
+                    <option value="sancru">Santa Cruz</option>
+                    <option value="sanfe">Santa Fe</option>
+                    <option value="santia">Santiago del Estero</option>
+                    <option value="tierr">Tierra del Fuego</option>
+                    <option value="tucu">Tucumán</option>
+                </select>
+            <p><label for="">Tipo de Documento</label></p>
+                <select name="identi" id="tipodni">
+                    <option value="dni">DNI</option>
+                    <option value="LC">Libr. civica</option>
+                    <option value="LE">Libr. enrolamiento</option>
+                </select>
+            <textarea name="identificacion" id="dni" cols="30" rows="1" placeholder="1234567"></textarea>
+            <p> <label for="">Que preferis?</label> <br>
+                <input type="checkbox" name="tipo" value="minutas">Minutas 
+                <input type="checkbox" name="tipo" value="Vegana">Vegana 
+                <input type="checkbox" name="tipo" value="Vegetariana">Vegetariana <br>
+                <input type="checkbox" name="tipo" value="bebidas">Bebidas 
+                <input type="checkbox" name="tipo" value="Etnicas">Etnicas  
+                <input type="checkbox" name="tipo" value="pasta">Pastas <br>
+                <input type="checkbox" name="tipo" value="carne">Carnes
+                <input type="checkbox" name="tipo" value="plato">Al Plato  
+                <input type="checkbox" name="tipo" value="otro">Otros 
+            </p>
+
+            <input type="email" id="email" name="email" placeholder="Tu dirección de E-mail">
+            
+            <input class="input__password" type="password" name="email" placeholder="Contraseña">
+            <input class="input__password" type="password" name="email" placeholder="Repetir Contraseña">
+
+            <p> <button type="reset">Limpiar campos</button>
+                <button type="submit">Enviar formulario</button>
+            </p>         
+        </article>              
+            
 
         <!-- pie de pagina -->
         <footer class="footer__main">

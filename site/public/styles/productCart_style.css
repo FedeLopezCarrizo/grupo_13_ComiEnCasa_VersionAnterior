@@ -1,16 +1,11 @@
 .container{
     font-family: 'league_spartanbold';
-    /* background-image: url("/img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
 }
 
 .header__main {
     display: flex;
     flex-direction: column;
     background-color: #2AB969; 
-    
 }
 
 .header__loginregister{
@@ -20,25 +15,7 @@
     /* border: 1px solid gainsboro; */
 }
 
-.header__usuarioregister{
-    display: flex;
-    flex-direction: column; 
-}
 
-.create__business{
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 5px;
-}
-
-.input__nombre{
-    border-radius: 4px;
-    color: #1b1825;
-    font-style: italic;
-    padding: 8px 16px;
-    font-size: 14px;
-    margin-top: 5px;
-}
 .menu__iconburger{
     display: flex;
     justify-content: space-between;
@@ -101,18 +78,6 @@
     justify-content: space-around;
 }
 
-.section__suggestions{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.article__suggestion{
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-
 .section__search{
     display: flex;
     flex-direction: column; 
@@ -136,6 +101,12 @@
     width: 100%;
     /* background-color: #ffc244; */
     background-color: gray;
+}
+
+.img__product{
+    max-width: 100px;
+    min-width: 100px;
+    vertical-align: middle;
 }
 
 .footer__main{
