@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('/leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container{
     font-family: 'league_spartanbold';
     /* background-image: url("/img/background.jpg");
@@ -10,7 +18,6 @@
     display: flex;
     flex-direction: column;
     background-color: #2AB969; 
-    
 }
 
 .header__loginregister{

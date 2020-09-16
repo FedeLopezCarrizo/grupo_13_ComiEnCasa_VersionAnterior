@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('/leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.container{
+    font-family: 'league_spartanbold';
+}
+
+.header__main {
+    display: flex;
+    flex-direction: column;
+    background-color: #2AB969; 
+}
+
+.menu__iconburger{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header__loginregister{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    /* border: 1px solid gainsboro; */
+}
+
+.icon-cart {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.nav__main li{
+    list-style-type:none;
+}
+
+.nav__main ul{
+    padding: 0;
+}
+
+.logo{
+    width: 100%;
+    margin: 15px auto 15px auto;
+}
+
+.section__search{
+    display: flex;
+    flex-direction: column; 
+}
+
+.product__detail{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+/* no me toma el de abajo */
+.product__detail_titulo h1{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.product__detail_img{
+    display: flex;
+}
+.product_img {
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.button_img{
+
+}
+
+.descripcion__producto{
+    display: flex;
+    text-align: center;
+    background-color: green;
+}
+
+.h3 {
+    text-align: center;
+}
+
+.cantidad_pedido {
+    width: 132px;
+    height: 44px;
+    border-radius: 24px;
+    border: 1px solid #2AB969;
+    display: flex;
+    line-height: 44px;
+    text-align: center;
+    margin: 16px auto;
+    color: #2AB969;
+    font-family: Lato;
+    font-size: 14px;
+}

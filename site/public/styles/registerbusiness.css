@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('/leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .container{
     font-family: 'league_spartanbold';
     /* background-image: url("/img/background.jpg");
@@ -19,7 +27,25 @@
     /* border: 1px solid gainsboro; */
 }
 
+.header__usuarioregisterbusiness{
+    display: flex;
+    flex-direction: column; 
+}
 
+.create__business{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+}
+
+.input__nombre{
+    border-radius: 4px;
+    color: #1b1825;
+    font-style: italic;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 5px;
+}
 .menu__iconburger{
     display: flex;
     justify-content: space-between;

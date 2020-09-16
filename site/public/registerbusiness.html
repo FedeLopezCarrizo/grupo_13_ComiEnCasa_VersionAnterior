@@ -15,17 +15,15 @@
                                 
             <article class="menu__iconburger"> 
                 <img class="menu__burger" src="/img/icon-burger.svg" alt="menu">
+            </article>
         </header>
-                <h1> Completa tus datos.</h1>
-                <a href="/register.html">Crea una cuenta personal</a>
-                <article class="header__usuarioregister"> 
-                    <p><label for="">Nombre</label></p>
-                        <textarea name="nombre" id="name" cols="30" rows="1"></textarea>
-                    <p><label for="">Apellido</label> </p>
-                        <textarea name="lastname" id="lastname" cols="30" rows="1"></textarea>
-                    <p><label for="">Razon Social</label> </p>
-                        <textarea name="raz.soc" id="lastname" cols="50" rows="1"></textarea>
-                    <p><label for="">Selecciona provincia</label></p>
+        <article class="header__usuarioregisterbusiness">     
+            <h1> Completa tus datos.</h1> 
+                <a class="create__personal" href="/register.html">crea una cuenta personal</a>
+                
+                    <input class="input__nombre" type="text" name="name" placeholder="Nombre">
+                    <input class="input__nombre" type="text" name="lastname" placeholder="Apellido">
+                        <p><label for="">Selecciona provincia</label></p>
                         <select name="provincia" id="provincia">
                             <option value="bsas">Buenos Aires</option>
                             <option value="capfed">C.A.B.A.</option>
@@ -77,16 +75,9 @@
                    </p>
                 <p> <button type="reset">Limpiar campos</button>
                     <button type="submit">Enviar formulario</button>
-                </p>
-            
-                </article>
-
-                
-            </article>
-
-			
-        
-                    
+                </p>          
+        </article>
+                   
         <!-- sugerencias -->
         <section class="section__suggestions">
             <article class="article__suggestion">
