@@ -4,7 +4,6 @@
          url('/leaguespartan-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 } 
 
 .container{
@@ -196,4 +195,31 @@
 .icon__youtube:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
+}
+
+@media (min-width:768px){      
+    .topnav a.icon {
+        padding: 5px 20px;
+    }
+}
+
+@media (min-width:1024px){
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+      
+    .topnav a.active {
+        background-color: yellow;
+        color: white;
+    }
+      
+    .topnav a.icon {
+        padding: 10px 20px;
+    }
 }

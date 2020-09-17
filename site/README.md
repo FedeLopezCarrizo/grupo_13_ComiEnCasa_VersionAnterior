@@ -17,3 +17,6 @@ Referentes e inspiración
 •	Glovo: La estética de la web y su sencillez es una de las cosas que más destacamos, nos pareció que está pensado para múltiples dispositivos.  https://glovoapp.com/es-ar
 •	Planeta empanada: el formulario de contacto y dejando a la vista las formas de contactarse con el lugar. https://planetaempanada.com/pe/
 •	Chef Gourmet:  Es una web que se dedica a la soluciones gastronomicas para las empresas, donde apunta a las viandas como al servicio de catering. http://www.chefgourmet.com.ar/
+
+Tablero de trabajo:
+https://trello.com/b/JlbLLCv3/proyecto-integrador-comiencasa
