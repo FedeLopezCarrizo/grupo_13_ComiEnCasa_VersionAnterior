@@ -134,12 +134,12 @@
     border: 1px solid gainsboro;
     font-size: 16px;
     font-weight: 800;
-    color: white;
+    color: black;
     height: 40px;
     border-radius: 10px;
     padding: 0;
     width: 100%;
-    background-color: gray;
+    background-color: lightgray;
     margin-top: 5px;
 }
 
@@ -156,11 +156,33 @@
     margin-top: 5px;
 }
 
-.button_register button{
+.input__email{
+    border-radius: 4px;
+    color: #1b1825;
+    font-style: italic;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.input__password{
+    border-radius: 4px;
+    color: #1b1825;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* .button_register button{
     display: flex;
     size: 100%;
     border: none;
     background: none;
+} */
+
+.input_login{
+    display: flex;
+    flex-direction: column; 
 }
 
 .footer__social{

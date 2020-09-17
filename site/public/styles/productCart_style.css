@@ -235,6 +235,19 @@
     padding: 10px 40px;
 }
 
+.button__buy{
+    border: 1px solid gainsboro;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+    width: 100%;
+    background-color: #2AB969;
+    margin-top: 5px;
+}
+
 .footer__main{
     background-color: #2AB969; 
 }
@@ -378,6 +391,10 @@
         margin-bottom: 20px;
     }
 
+    .article__product{
+        justify-content: space-evenly;
+    }
+    
     .icon-cart {
         margin-right: 20px;
     }
@@ -399,6 +416,30 @@
     .article__comments{
         width: 28%;
         margin: 0 10px 10px 10px;
+    }
+
+    .select__cantidad{
+        width: 15%;
+    }
+    
+    .button__delete{
+        width: 15%;
+    }
+    
+    .article__product__description{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .a__detailProduct{
+        margin-top: 5px;
+    }
+
+    .price__currency{
+        margin-top: 5px;
     }
 
     .topnav a {
