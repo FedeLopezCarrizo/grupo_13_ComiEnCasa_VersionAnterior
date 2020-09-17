@@ -4,11 +4,14 @@
          url('/leaguespartan-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
-} 
+}
 
 .container{
     font-family: 'league_spartanbold';
+    /* background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
 }
 
 .topnav {
@@ -56,6 +59,26 @@
     height: 48px;
 }
 
+.header__usuarioregisterbusiness{
+    display: flex;
+    flex-direction: column; 
+}
+
+.create__business{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+}
+
+.input__nombre{
+    border-radius: 4px;
+    color: #1b1825;
+    font-style: italic;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 .menu__iconburger{
     display: flex;
     justify-content: space-between;
@@ -69,81 +92,21 @@
     margin: 15px auto 15px auto;
 }
 
-.section__login{
+.nav__main a{
     display: flex;
-    flex-direction: column; 
-}
-
-.login__title{
-    text-align: center;
-    font-size: 24px;
-}
-
-.login__forgetpass{
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 5px;
-}
-
-.input__email{
-    border-radius: 4px;
-    color: #1b1825;
-    font-style: italic;
-    padding: 8px 16px;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.input__password{
-    border-radius: 4px;
-    color: #1b1825;
-    padding: 8px 16px;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-.button__login{
-    border: 1px solid gainsboro;
-    font-size: 16px;
-    font-weight: 800;
-    color: white;
-    height: 40px;
-    border-radius: 10px;
-    padding: 0;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
     background-color: gray;
-    margin-top: 5px;
-}
-
-.login__unregistered{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 14px;
-}
-
-.txt__signup{
-    padding: 0 20px;
-    background: #fff;
-}
-
-.line__signup{
-    width: 100%;
-    float: left;
-    border-top: 1px solid #ccc;
-    margin-top: -10px;
-}
-
-.button__register{
     border: 1px solid gainsboro;
-    font-size: 16px;
-    font-weight: 800;
-    color: black;
-    height: 40px;
-    border-radius: 10px;
+}
+
+.nav__main li{
+    list-style-type:none;
+}
+
+.nav__main ul{
     padding: 0;
-    width: 100%;
-    background-color: lightgray;
-    margin-top: 5px;
 }
 
 .footer__main li{

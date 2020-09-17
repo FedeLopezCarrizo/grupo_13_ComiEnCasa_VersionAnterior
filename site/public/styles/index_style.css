@@ -1,9 +1,49 @@
+@font-face {
+    font-family: 'league_spartanbold';
+    src: url('/leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('/leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
 .container{
     font-family: 'league_spartanbold';
-    /* background-image: url("/img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #2AB969;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none; 
+}
+
+.topnav__links {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+
+.topnav a.icon {
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    background: #2AB969;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
 
 .header__main {
@@ -14,11 +54,9 @@
 
 .header__loginregister{
     display: flex;
-    flex-direction: column;
-    align-items: center;    
+    justify-content: space-between;
     /* border: 1px solid gainsboro; */
 }
-
 
 .menu__iconburger{
     display: flex;
@@ -31,11 +69,18 @@
 .a__login{
     /* border: 1px solid #2AB969; */
     padding-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-left: 80px;
 }
 
 .a__register{
     padding-top: 5px;
     padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 
 .logo{
@@ -75,6 +120,9 @@
     align-items: center;
     align-self: stretch;
     border: 1px solid gainsboro;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
 }
 
 .footer__social{
@@ -94,9 +142,20 @@
     justify-content: center;
 }
 
+.article__suggestions__title{
+    color: #273239;
+    margin: 0 0 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
 .section__search{
     display: flex;
     flex-direction: column; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .input__search{
@@ -117,6 +176,71 @@
     width: 100%;
     /* background-color: #ffc244; */
     background-color: gray;
+}
+
+.section__comments{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__comments h2{
+    color: #273239;
+    margin: 0;
+    text-align: center;
+}
+
+.section__comments h4{
+    color: #273239;
+    margin: 0 0 45px;
+    text-align: center;
+}
+
+.article__comments{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+
+.article__comments__title{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.img__comments{
+    width: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.name__comments{
+    font-size: 12px;
+    color: #acacac;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.date__comments{
+    font-size: 10px;
+    color: #acacac;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.p__comments{
+    color: #4a4d4d;
+    margin: 0 0 15px;
+    font-size: 12px;
+    text-align: center;
+    width: 50%;
 }
 
 .footer__main{
@@ -249,13 +373,4 @@
     position: absolute;
     left: 200%;
     bottom: 0;
-}
-
-@font-face {
-    font-family: 'league_spartanbold';
-    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
-         url('leaguespartan-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }

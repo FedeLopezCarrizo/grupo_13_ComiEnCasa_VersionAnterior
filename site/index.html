@@ -12,32 +12,37 @@
         <!-- cabecera -->
         <header class="header__main">            
             <img src="/img/banner.png" alt="logotipo" class="logo">
-
-            <article class="menu__iconburger"> 
-                <img class="menu__burger" src="/img/icon-burger.svg" alt="menu">
-
+            
+           
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
                 <article class="header__loginregister"> 
                     <a href="/login.html" class="a__login">Inicia Sesión</a>
-                    <a href="/../register.html" class="a__register">Registrate</a>
+                    <a href="/register.html" class="a__register">Registrate</a>
+
+                    <a href="/productCart.html">
+                        <div class="icon-cart">
+                            <div class="cart-line-1" style="background-color: #E5E9EA"></div>
+                            <div class="cart-line-2" style="background-color: #E5E9EA"></div>
+                            <div class="cart-line-3" style="background-color: #E5E9EA"></div>
+                            <div class="cart-wheel" style="background-color: #E5E9EA"></div>
+                        </div>
+                    </a>
                 </article>
 
-                <div class="icon-cart">
-                    <div class="cart-line-1" style="background-color: #E5E9EA"></div>
-                    <div class="cart-line-2" style="background-color: #E5E9EA"></div>
-                    <div class="cart-line-3" style="background-color: #E5E9EA"></div>
-                    <div class="cart-wheel" style="background-color: #E5E9EA"></div>
+                <div id="myLinks">
+                    <a class="topnav__links" href="#">Categorias</a>
+                    <a class="topnav__links" href="#">Mis Pedidos</a>
+                    <a class="topnav__links" href="#">Ofertas</a>
+                    <a class="topnav__links" href="#">Empresas</a>
+                    <a class="topnav__links" href="#">Preguntas Frecuentes</a>
                 </div>
-            </article>
 
-			<nav class="nav__main">
-				<ul>
-					<li><a href="#">Categorias</a></li>
-					<li><a href="#">Mis Pedidos</a></li>
-					<li><a href="#">Ofertas</a></li>
-					<li><a href="#">Empresas</a></li>
-					<li><a href="#">Preguntas Frecuentes</a></li>
-				</ul>
-            </nav>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <!-- <i class="fa fa-bars"></i> -->
+                    <img class="menu__burger" src="/img/icon-burger.svg" alt="menu">
+                </a>
+            </div>
         </header>
             
         <!-- busqueda -->
@@ -48,6 +53,9 @@
         
         <!-- sugerencias -->
         <section class="section__suggestions">
+            <article class="article__suggestions__title">
+                <h2>Las mejores sugerencias</h2>
+            </article>         
             <article class="article__suggestion">
                  <a href="#"><img src="/img/sugerencia_bebida.png" alt="sugerencia_bebida"> </a>
             </article>
@@ -59,6 +67,37 @@
             </article>
             <article class="article__suggestion">
                 <a href="#"><img src="/img/sugerencia_veggie.png" alt="sugerencia_veggie"> </a>
+            </article>
+        </section>
+
+        <!-- comentarios -->
+        <section class="section__comments">
+            <article class="article__comments__title">
+                <h2>Nuestros clientes</h2>
+            </article>         
+            <article class="article__comments__title">  
+                <h4>Opiniones de usuarios que te pueden ayudar con su experiencia</h4>
+            </article>         
+            <article class="article__comments">
+                <img class="img__comments" src="/img/cliente1.jpg" alt="opinion cliente 1">
+                <span class="name__comments">Federico</span>
+                <p class="p__comments">Tremendas las milanesas a la napolitana! De lo mejor del mercado</p>
+                <span class="name__comments">El loco Milanga - Avenida Alem 1510</span>
+                <span class="date__comments">16 sep, 2020</span>
+            </article>
+            <article class="article__comments">
+                <img class="img__comments" src="/img/cliente2.jpg" alt="opinion cliente 2">
+                <span class="name__comments">Diego</span>
+                <p class="p__comments">Muy buenas las hamburguesas. Muy completas!</p>
+                <span class="name__comments">Burger Prince - Zapiola 1036</span>
+                <span class="date__comments">8 sep, 2020</span>
+            </article>
+            <article class="article__comments">
+                <img class="img__comments" src="/img/cliente3.jpg" alt="opinion cliente 3">
+                <span class="name__comments">Roman</span>
+                <p class="p__comments">Muy buena la sección de ofertas. Me ayudó a elegir el menú.</p>
+                <span class="name__comments">La casa de las comidas - Alsina 1517</span>   
+                <span class="date__comments">10 sep, 2020</span> 
             </article>
         </section>
 
@@ -78,5 +117,16 @@
             </ul>
 		</footer>
     </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
 </body>
 </html>
