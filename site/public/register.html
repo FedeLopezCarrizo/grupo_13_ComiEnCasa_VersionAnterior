@@ -43,7 +43,8 @@
             <input class="input__nombre" type="text" name="name" placeholder="Nombre">
             <input class="input__nombre" type="text" name="lastname" placeholder="Apellido">
 
-            <p><label for="">Selecciona provincia</label></p>
+        <article class="seleccion_ubicacion">
+                <h2>Selecciona provincia</h2>
                 <select name="provincia" id="provincia">
                     <option value="bsas">Buenos Aires</option>
                     <option value="capfed">C.A.B.A.</option>
@@ -70,14 +71,18 @@
                     <option value="tierr">Tierra del Fuego</option>
                     <option value="tucu">Tucumán</option>
                 </select>
-            <p><label for="">Tipo de Documento</label></p>
-                <select name="identi" id="tipodni">
+        </article>
+        <article class="tipo_id">
+                <h2>Tipo de Documento</h2>
+                    <select name="identi" id="tipodni">
                     <option value="dni">DNI</option>
                     <option value="LC">Libr. civica</option>
                     <option value="LE">Libr. enrolamiento</option>
                 </select>
-            <textarea name="identificacion" id="dni" cols="30" rows="1" placeholder="1234567"></textarea>
-            <p> <label for="">Que preferis?</label> <br>
+                <textarea name="identificacion" id="dni" cols="30" rows="1" placeholder="1234567"></textarea>
+        </article>
+            <h2>Que preferis?</h2>
+               <p> 
                 <input type="checkbox" name="tipo" value="minutas">Minutas 
                 <input type="checkbox" name="tipo" value="Vegana">Vegana 
                 <input type="checkbox" name="tipo" value="Vegetariana">Vegetariana <br>
@@ -87,16 +92,17 @@
                 <input type="checkbox" name="tipo" value="carne">Carnes
                 <input type="checkbox" name="tipo" value="plato">Al Plato  
                 <input type="checkbox" name="tipo" value="otro">Otros 
-            </p>
-
+                </p>
+        <section class="input_login"> 
             <input type="email" id="email" name="email" placeholder="Tu dirección de E-mail">
             
             <input class="input__password" type="password" name="email" placeholder="Contraseña">
             <input class="input__password" type="password" name="email" placeholder="Repetir Contraseña">
-
-            <p> <button type="reset">Limpiar campos</button>
-                <button type="submit">Enviar formulario</button>
-            </p>         
+        </section>
+            <section class="button_register"> 
+                <p class="button__reset"><button type="button_reset">Limpiar campos</button> </p>
+                <p class="button__submit"><button type="button_submit">Enviar formulario</button></p>
+            </section>  
         </article>              
             
 

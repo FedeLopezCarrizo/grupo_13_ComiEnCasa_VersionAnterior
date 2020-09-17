@@ -129,6 +129,44 @@
     font-size: 12px;
 }
 
+.button_register{
+    display: flex;
+    flex-direction: column; 
+}
+
+.button__reset {
+    border: 1px solid gainsboro;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+    width: 100%;
+    background-color: gray;
+    margin-top: 5px;
+}
+
+.button__submit{
+    border: 1px solid gainsboro;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+    width: 100%;
+    background-color: gray;
+    margin-top: 5px;
+}
+
+.button_register button{
+    display: flex;
+    size: 100%;
+    border: none;
+    background: none;
+}
+
 .footer__social{
     display: flex;
     justify-content: space-around;
@@ -159,4 +197,20 @@
 .icon__youtube:hover {
 	opacity: 1.0;
 	filter: alpha(opacity=100);
+}
+@media (min-width:1024px){
+    .header__usuarioregister{
+        text-align: center;
+    }
+    .input_login{
+        justify-content: center;
+    }
+    .button_register{
+        display: flex;
+        width: 50%;
+        padding-left: 25%;
+    }
+    .button__reset{
+
+    }
 }

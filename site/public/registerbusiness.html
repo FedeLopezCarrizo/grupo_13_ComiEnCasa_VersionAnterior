@@ -41,40 +41,45 @@
                 
                     <input class="input__nombre" type="text" name="name" placeholder="Nombre">
                     <input class="input__nombre" type="text" name="lastname" placeholder="Apellido">
-                        <p><label for="">Selecciona provincia</label></p>
-                        <select name="provincia" id="provincia">
-                            <option value="bsas">Buenos Aires</option>
-                            <option value="capfed">C.A.B.A.</option>
-                            <option value="cata">Catamarca</option>
-                            <option value="chac">Chaco</option>
-                            <option value="chub">Chubut</option>
-                            <option value="cord">Córdoba</option>
-                            <option value="corri">Corrientes</option>
-                            <option value="entr">Entre Ríos</option>
-                            <option value="form">Formosa</option>
-                            <option value="Jujuy">Jujuy</option>
-                            <option value="lapam">La Pampa</option>
-                            <option value="lario">La Rioja</option>
-                            <option value="mdz">Mendoza</option>
-                            <option value="misio">Misiones</option>
-                            <option value="nqn">Neuquén</option>
-                            <option value="rion">Rio Negro</option>
-                            <option value="salta">Salta</option>
-                            <option value="sanju">San Juan</option>
-                            <option value="sanlu">San Luis</option>
-                            <option value="sancru">Santa Cruz</option>
-                            <option value="sanfe">Santa Fe</option>
-                            <option value="santia">Santiago del Estero</option>
-                            <option value="tierr">Tierra del Fuego</option>
-                            <option value="tucu">Tucumán</option>
-                        </select>
-                    <p><label for="">CUIT / CUIL</label></p>
+                        <article class="seleccion_provincia">
+                            <h2>Selecciona provincia</h2>
+                                <select name="provincia" id="provincia">
+                                    <option value="bsas">Buenos Aires</option>
+                                    <option value="capfed">C.A.B.A.</option>
+                                    <option value="cata">Catamarca</option>
+                                    <option value="chac">Chaco</option>
+                                    <option value="chub">Chubut</option>
+                                    <option value="cord">Córdoba</option>
+                                    <option value="corri">Corrientes</option>
+                                    <option value="entr">Entre Ríos</option>
+                                    <option value="form">Formosa</option>
+                                    <option value="Jujuy">Jujuy</option>
+                                    <option value="lapam">La Pampa</option>
+                                    <option value="lario">La Rioja</option>
+                                    <option value="mdz">Mendoza</option>
+                                    <option value="misio">Misiones</option>
+                                    <option value="nqn">Neuquén</option>
+                                    <option value="rion">Rio Negro</option>
+                                    <option value="salta">Salta</option>
+                                    <option value="sanju">San Juan</option>
+                                    <option value="sanlu">San Luis</option>
+                                    <option value="sancru">Santa Cruz</option>
+                                    <option value="sanfe">Santa Fe</option>
+                                    <option value="santia">Santiago del Estero</option>
+                                    <option value="tierr">Tierra del Fuego</option>
+                                    <option value="tucu">Tucumán</option>
+                                </select>
+                        </article>
+                    <article class="numer_id"> 
+                        <h2>CUIT / CUIL</h2>
                         <select name="identi" id="tipodni">
                             <option value="cuit">cuit</option>
                             <option value="cuil">cuil</option>
-                                                    </select>
+                        </select>
                     <textarea name="identificacion" id="dni" cols="30" rows="1" placeholder="1234567"></textarea>
-                   <p> <label for="">Que preferis?</label> <br>
+                    </article>
+                   <section class="preference"> 
+                        <h2>¿Que preferis?</h2>
                         <input type="checkbox" name="tipo" value="minutas">Minutas 
                         <input type="checkbox" name="tipo" value="Vegana">Vegana 
                         <input type="checkbox" name="tipo" value="Vegetariana">Vegetariana 
@@ -84,16 +89,18 @@
                         <input type="checkbox" name="tipo" value="carne">Carnes
                         <input type="checkbox" name="tipo" value="plato">Al Plato  
                         <input type="checkbox" name="tipo" value="otro">Otros 
-                   </p>
-                   <p> <label for="email">E-mail</label>
-                       <input type="email" id="email" name="email" placeholder="coso@comiencasa.com">
-                   </p>
-                   <p> <label for="password">Contraseña</label>
-                        <input type="password" id="password" name="password">
-                   </p>
-                <p> <button type="reset">Limpiar campos</button>
-                    <button type="submit">Enviar formulario</button>
-                </p>          
+                   </section>
+                <article class="input_mailpass"> 
+                    <input class="input__pass" type="email" id="email" name="email" placeholder="E-mail">
+                   
+                    <input class="input__pass" type="password" id="password" name="password" placeholder="Contraseña">
+                   
+                    <input class="input__pass" type="password" id="password" name="password" placeholder="Confirmar Contraseña">
+                </article>   
+                <section class="botton_summit"> 
+                    <p class="botton__sumit"> <button type="reset">Limpiar campos</button> </p>
+                    <p class="botton__sumit"> <button type="submit">Enviar formulario</button> </p>
+                </section>         
         </article>
                    
         <!-- pie de pagina -->

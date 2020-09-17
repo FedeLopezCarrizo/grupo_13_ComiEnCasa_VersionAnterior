@@ -127,16 +127,51 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    
 }
 /* no me toma el de abajo */
 .product__detail_titulo h1{
     display: flex;
     flex-direction: column; 
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.product__detail h1{
+    text-align: center;
+}
+
+.product__detail h2{
+    text-align: center;
 }
 
 .product__detail_img{
     display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.button_img{
+    display: flex;
+    size: 100%;
+    justify-content: space-between;
+}
+
+.button-left{
+    display: flex;
+}
+
+.button-right{
+    display: flex;
+}
+
+.aclaracion{
+    size: 100%;
+    justify-content: center;
+}
+
+.aclaracion textarea{
+     margin-left: auto;
+     margin-right: auto;
 }
 
 .product_img {
@@ -145,21 +180,15 @@
     justify-content: space-between;
 }
 
-.button_img{
-
-}
-
 .descripcion__producto{
-    display: flex;
-    text-align: center;
-    background-color: green;
-}
+    text-align: left;
+   }
 
-.h3 {
+.descripcion__producto h3{
     text-align: center;
-}
+   }
 
-.cantidad_pedido {
+   .cantidad_pedido {
     width: 132px;
     height: 44px;
     border-radius: 24px;
@@ -172,6 +201,41 @@
     font-family: Lato;
     font-size: 14px;
 }
+
+.product__detail_cantidad h3{
+    text-align: center;
+}
+
+.product__detail_cantidad{
+    justify-content: space-between;
+}
+
+.product__detail_button{
+    border: 1px solid gainsboro;
+    font-size: 16px;
+    font-weight: 800;
+    color: black;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0;
+    width: 100%;
+    /* background-color: #ffc244; */
+    background-color: none;
+    border-image: none;
+}
+
+.product__detail_masdelvendedor{
+    color: #1b1825;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    border-radius: 2px;
+    }
+
+.product__detail_masdelvendedor a{
+    text-decoration: none;
+}
+
 
 .footer__main{
     background-color: #2AB969; 
@@ -376,4 +440,50 @@
     position: absolute;
     left: 200%;
     bottom: 0;
+}
+@media (min-width:1024px){
+    .container{
+        font-family: 'league_spartanbold';
+        width: auto;
+    }
+    .header__usuarioregister{
+        text-align: center;
+    }
+    .input_login{
+        justify-content: center;
+    }
+    .button_register{
+        display: flex;
+        width: 50%;
+        padding-left: 25%;
+    }
+    
+    .product__detail_img{
+        display: flex;
+        justify-content: space-around;
+        border-radius: 24px;
+    }
+    .product_img{
+        display: flex;
+        width: fit-content;
+    }
+    .button_img {
+        display: flex;
+        justify-content: space-around;
+    }
+    .descripcion__producto{
+        text-align: center;
+    }
+    .aclaracion {
+        flex-wrap: wrap;
+    }
+    .textarea {
+        justify-content: center;
+    }
+    .product__detail_cantidad{
+        justify-content: center;
+    }
+    .product__detail_cantidad h3{
+        text-align: center;
+    }
 }
